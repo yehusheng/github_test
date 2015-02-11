@@ -1,0 +1,15 @@
+git
+ git clone https://github.com/yehusheng/github_test.git//下载项目 
+
+git status
+git config --global user.email "yehusheng@foxmail.com"
+git config --global user.name "yehusheng"
+
+git add ./main.c
+git commit -m "add main.c"
+
+
+git push  //发布到服务器
+
+git checkout main.c//将删除的main.c文件恢复
+git ls-files -d|xargs git checkout --  //恢复命删除文件
